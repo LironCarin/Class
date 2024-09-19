@@ -6,7 +6,6 @@
 <style>
 body {
     margin: 0;
-    padding: 0;
     background-color: #CCC;
 }
 
@@ -18,18 +17,19 @@ wrapper {
 }
 
 header {
-    height: 150px;
+    height: 100px;
     background-color: #000000;
-    text-shadow: 0px 0px #FFFFFF;
     color: #FFFFFF;
     text-align: center;
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
     font-style: normal;
-    font-size: 8em;
+    font-size: 5em;
+    align-content: center;
+    padding-top: 25px;
 }
 
 main {
-    height: 768px;
+    height: 1024px;
     background-color: #FFF;
     padding: 4em 0;
     box-sizing: border-box;
@@ -56,23 +56,24 @@ footer {
 }
 
 #rocketandfire {
-    animation: upanddown 8s linear infinite;
+    animation: upanddown 10s linear infinite;
 }
 
 @keyframes upanddown {
     0% { transform: translateY(-150px); }
     50% { transform: translateY(250px); }
+	55% { transform: translateY(250px); }
     100% { transform: translateY(-150px); }
 }
 
 #fire {
-    animation: vibrant 8s linear infinite;
+    animation: vibrant 10s linear infinite;
 }
 
 @keyframes vibrant {
     0% { opacity: 1; }
-    45% { opacity: 0; }
-    65% { opacity: 0; }
+    50% { opacity: 0; }
+    55% { opacity: 0; }
     100% { opacity: 1; }
 }
 
@@ -80,17 +81,6 @@ footer {
     animation: updown 8s linear infinite;
 }
 
-@keyframes updown {
-    0% { transform: translateY(-300px); }
-    50% { transform: translateY(200px); }
-    100% { transform: translateY(-300px); }
-}
-
-@keyframes size {
-    0% { transform: skewY(100px); }
-    50% { transform: skewY(0px); }
-    100% { transform: skewY(100px); }
-}
 </style>
 </head>
 <body>
