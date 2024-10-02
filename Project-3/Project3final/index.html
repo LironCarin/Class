@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/*This is the global style sheet (for smartphones)*/
+body {
+  background-color: #fff;
+}
+wrapper{
+    width: 80%;
+    min-width: 300px;
+    max-width: 2500px;
+    display: block;
+    margin: auto;
+    background-color: white;
+    text-align: center;    
+}
+	ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: ffffff;
+    margin-top: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: x-large;
+    display: inline-block;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #333;
+		
+}
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-width: thin;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 47px;
+    padding-top: 34px;
+    padding-bottom: 0px;
+}
+p2 {
+    text-align: center;
+    display: block;
+}
+section{
+    margin-bottom: 10px;
+}
+banner{
+    display: block;
+    background-color: black;
+    margin-bottom: 10px;
+    color: white;
+    font-family: verdana;
+    padding: 10px;
+}
+body wrapper h1 {
+}
+wrapper section img {
+    width: 100%;
+    height: auto;
+}
+/*This is the beginning of the tablet media query*/
+@media (min-width:800px){
+
+body{
+  background-color:lightgreen;
+}
+wrapper{
+  padding-left:10px;
+}
+section{
+  width:48%;
+  display:inline-block;
+  margin-right:4px;
+}
+banner{
+margin-right:10px;
+}
+}
+/*This is the laptop media query*/
+@media (min-width:1600px){
+body{
+  background-color:lightgreen;
+}
+section{
+  width:31%;
+}
+banner{
+margin-right:20px;
+}
+}
+</style>
+</head>
+<body>
+	
+<wrapper>
+<h1>Swarovski</h1>
+<banner> <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">New In</a></li>
+  <li><a href="#contact">Bracelets</a></li>
+  <li><a href="#about">Jewelry</a></li>
+</ul></banner>
+<section><img src="../1.2.jpg" alt="" width="200" height="200">
+<p2> Matrix Tennis Bracelet $129</p2>
+</section>
+<section><img src="../2.2.jpeg" alt="" width="200" height="200">
+<p2>Una Angelic Tennis Bracelet $129</p2>
+</section>
+<section><img src="../3.2.jpeg" alt="" width="200" height="200">
+<p2>Hyperbola Bangle $189</p2>
+</section>
+<section><img src="../4.2.jpeg" alt="" width="200" height="200">
+<p2>Matrix Tennis Bracelet $229</p2>
+</section>
+<section><img src="../5.2.jpeg" alt="" width="200" height="200">
+<p2>Matrix Bracelet $129</p2>
+</section>
+<section><img src="../6.2.jpeg" alt="" width="200" height="200">
+<p2>Lifelong Heart Bangle $129</p2>
+</section>
+<section><img src="../7.2.jpeg" alt="" width="200" height="200">
+<p2>Symbolica Bangle $129</p2>
+</section>
+<section><img src="../8.2.jpeg" alt="" width="200" height="200">
+<p2>Dextera Bracelet $189</p2>
+</section>
+<section><img src="../9.2.jpeg" alt="" width="200" height="200">
+<p2>Idyllia Bracelet $129</p2>
+</section>
+<section><img src="../10.2.jpeg" alt="" width="200" height="200">
+<p2>Twisty Cuff $99</p2>
+</section>
+<section><img src="../11.2.jpeg" alt="" width="200" height="200">
+<p2>Matrix Bracelet $300</p2>
+</section>
+<section><img src="../12.2.jpeg" alt="" width="200" height="200">
+<p2>Matrix Tennis Bracelet $129</p2>
+</section>
+<footer>© 2024, Liron Carin
+  This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</footer>
+</wrapper>
+</body>
+</html>
