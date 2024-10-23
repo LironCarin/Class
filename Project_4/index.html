@@ -7,6 +7,7 @@
 	<style>
 body {
     margin: 0;
+    background-color: #151B16;
 }
 wrapper  {
     width: 100%;
@@ -24,11 +25,12 @@ h1 {
     color: #FBFBFB;
     font-size: 3em;
     text-align: center;
+    margin-bottom: 0px;
+    margin-top: -80px;
+    padding-bottom: 52px;
 }
 section {
     padding: 20px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     position: relative;
 }
@@ -36,9 +38,9 @@ footer {
     padding: 20px;
     font-size: 12px;
 }
-		#nav{
-			display: none;
-		}
+#nav{
+	display: none;
+	}
 ul li  {
     padding: 20px;
     display: block;
@@ -66,58 +68,36 @@ h2 {
     text-align: center;
     padding-top: 10px;
 }
+#contact h3 {
+    box-sizing: content-box;
+    display: block;
+    border: medium solid #949494;
+    padding-top: 8px;
+    background-color: #E7E7E7;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    color: #444444;
+}
+#contact h3:hover  {
+	cursor: pointer
+}
 #work img {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    display: inline-block;
+    box-sizing: content-box;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    padding-left: 100px;
+    max-height: 80%;
+    max-width: 80%;
 }
-#work {
+.logo {
+    padding-left: 65px;
 }
-#slider{
-	overflow:hidden;
-}
-#slider figure{
-    position: relative;
-    left: 0%;
-    animation: 20s slider infinite;
-    margin-top: 15px;
-    margin-left: 265px;
-}
-#slider figure img{
-    width: 20%;
-    float: left;
-}
-@keyframes slider {
-	0%{
-		left:0;
-	}
-	20%{
-		left: 0;
-	}
-	25%{
-		left:-100%;
-	}
-	45%{
-		left:-100%;
-	}
-	50%{
-		left:-200%;
-	}
-	70%{
-		left:-200%;
-	}
-	75%{
-		left:-300;
-	}
-	95%{
-		left:-300%;
-	}
-	100%{
-		left:-400%;
-	}
-}
+
+
 
 @media (min-width:1200px){
 wrapper {
@@ -144,14 +124,16 @@ ul li {
     margin-right: -4px;
     background-color: #2E421A;
 }
+	
 }
+   
     </style>
 	
 </head>
 
 <body>
 <wrapper>
-  <header><img src="logo-.png" alt="" width="50" height="75">
+  <header><img src="logo-.png" alt="" width="60" height="85" class="logo">
 <h1>The Gardener's Hand</h1>
     <img id="icon" src="images1/navigation_icon.gif" alt="Navigation icon. Click to expand navigation menu."/>
 <img id="x_icon" src="images1/x_icon.gif" alt="Exit out icon. Click to close navigation menu." style="display: none;" />  </header>
@@ -162,16 +144,14 @@ ul li {
 		<a href="#contact" id="contact_link"><li>Contact Us</li></a>
     </ul>
   </nav>
-  <section id="work"> <h2>Our Work</h2>
-	 
-	  <div id="slider">
-	  <figure>
+  <section id="work"> 
+	  <h2>Our Work</h2>
+	
 	<img src="lc1.jpg">
 	<img src="lc2.jpg.webp">
 	<img src="lc3.webp">
-	<img src="lc4.webp">
-	</figure>
-	  </div>
+	  
+
 	  </section>
 
 <section class="minor" id="about">
@@ -182,6 +162,9 @@ Whether you're looking to refresh your backyard or design an outdoor oasis, we'r
   <section class="minor" id="contact">
 	  <h2>Contact US
 	  </h2>
+	   <h3>Name</h3>
+    <h3>Phone Number</h3>
+	  <h3>Email</h3>
   </section>
   <footer>&copy; 2024, Liron Carin
 This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</footer>
