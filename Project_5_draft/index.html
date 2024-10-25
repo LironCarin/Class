@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Barbie Dress Up Game | Liron Carin 2024</title>
+	<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+<style type="text/css">
+body {
+    margin: 0;
+    background-color: #F7E5F7;
+}
+wrapper {
+    width: 1612px;
+    margin: auto;
+    display: block;
+}
+aside {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+div img {
+    width: 100%;
+    height: auto;
+}
+section {
+    display: inline-block;
+    height: 800px;
+    width: 800px;
+    vertical-align: top;
+}
+	section:empty{
+	background-image: url(outline.png);
+    background-size: contain;
+		
+	}
+div {
+    width: 400px;
+    height: 400px;
+    vertical-align: top;
+    background-color: #F8D7F9;
+    border: medium solid #f4ed85;
+}
+section img {
+    width: 100%;
+    height: auto;
+}
+header {
+    background-color: #e0218a;
+    border: 10px solid #F6EF8A;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    align-content: center;
+    padding-top: 20px;
+}
+footer{
+    background-color: #FFFFFF;
+    border: 5px solid #f4ed85;
+    text-align: center;
+	margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+	}
+h1 {
+    font-style: normal;
+    margin: auto;
+    font-size: 4em;
+}
+p1 {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-variant: small-caps;
+    font-style: oblique;
+    font-size: x-large;
+    padding-top: 0px;
+}
+p2 {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-variant: small-caps;
+    font-style: oblique;
+    color: #ED2096;		
+	}
+</style>
+</head>
+<header>
+	<h1>BARBIE DRESS UP</h1>
+	<p1>drag barbies outfit to dress her up!</p1>
+	</header>
+<body>
+<wrapper>
+  
+  <aside>
+    <div id="drop2" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="cowgirl.png" alt="" width="576" height="576" id="drag1" draggable="true" ondragstart="drag(event)"></div>
+    <div id="drop3" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="pinkablue.png" alt="" width="576" height="576" id="drag2" draggable="true" ondragstart="drag(event)">
+    </div>
+  </aside>
+  
+  
+  <section id="drop1" ondragover="allowDrop(event)" ondrop="drop(event)"></section>
+  <aside>
+  <div id="drop4" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="pinkawhite.png" alt="" width="576" height="576" id="drag3" draggable="true" ondragstart="drag(event)"></div>
+  <div id="drop5" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="sparkle.png" alt="" width="576" height="576" id="drag4" draggable="true" ondragstart="drag(event)"></div>
+  </aside>
+</wrapper>
+</body><footer><p2>© 2024, Liron Carin
+This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p2></footer>
+</html>
