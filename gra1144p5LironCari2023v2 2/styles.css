@@ -1,0 +1,378 @@
+@charset "UTF-8";
+@import url("Coco_Sharp_Heavy_trial/stylesheet.css");
+@import url("Coco_Sharp_Bold_trial/stylesheet.css");
+
+
+
+body {
+    margin: 0;
+    background-image: linear-gradient( #C08B51, #74483A, #000000);
+    background-repeat: no-repeat;
+}
+wrapper {
+    margin: auto;
+    width: 1336px;
+    display: block;
+}
+header {
+    height: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+header h1 {
+    color: #734226;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    font-family: "Coco Sharp Heavy trial";
+    font-size: 61px;
+    text-align: center;
+    background-color: undefined;
+    font-style: normal;
+}
+nav {
+    text-align: center;
+    margin-bottom: 29px;
+    margin-top: -34px;
+}
+ul {
+    padding: 0px;
+    margin-top: 41px;
+    margin-right: 41px;
+    margin-left: 41px;
+    margin-bottom: 41px;
+    font-size: large;
+}
+nav ul li {
+    display: inline-block;
+    color: #734226;
+    padding: 8px;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-size: 30px;
+}
+nav ul li:hover {
+    background-color: #734226;
+    color: #AB784A;
+}
+main {
+    height: 650px;
+    padding-top: 0px;
+    border: 4px solid #000000;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-size: 1337px auto;
+}
+footer {
+    padding: 8px 16px;
+    font-size: 12px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+
+#merch h3 {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-weight: lighter;
+}
+#merch p {
+    color: #FF0004;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+#merch h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 2em;
+}
+#merch h4 {
+    border-style: solid;
+    border-width: thin;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 0px;
+	width:125px;
+	margin:auto;
+}
+#merch h4:hover { background-color: #FF0004;
+    color: #FFFFFF;
+    border-style: solid;
+    border-color: #000000;
+    cursor: pointer;
+}
+#merch .Bootleg {
+    float: left;
+    text-align: center;
+    margin-left: 417px;
+    margin-top: 83px;
+}
+
+#merch .hey {
+    text-align: center;
+    float: right;
+    margin-top: 83px;
+    margin-right: 83px;
+}
+#merch .gold {
+    text-align: center;
+    position: relative;
+    top: 201px;
+    float: left;
+    margin-top: 158px;
+    margin-left: -129px;
+}
+#merch .cream {
+    text-align: center;
+    float: right;
+    margin-top: 360px;
+    margin-right: -228px;
+}
+#merch {
+    background-repeat: no-repeat;
+    font-family: "Coco Sharp Heavy trial";
+    background-image: url(Images/merch-bCK.png);
+}
+#videos {
+    background-color: #000000;
+}
+#videos iframe {
+    float: none;
+    width: 660px;
+    height: 415px;
+    margin-left: 342px;
+    margin-top: 51px;
+    border: thick double #4D4D4D;
+    padding-right: 81px;
+}
+#videos h2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 37px;
+}
+
+#home {
+    background-image: url(Images/bruno.png);
+}
+#store {
+    background-image: url(Images/store-bk.png);
+    background-position: 0% 58%;
+}
+#store h2 {
+    font-family: "Coco Sharp Heavy trial";
+    font-size: 2em;
+}
+#store .vinyl {
+    text-align: center;
+    float: left;
+    margin-top: 400px;
+    margin-left: 171px;
+}
+#store .cd {
+    text-align: center;
+    float: right;
+    margin-top: 400px;
+    margin-right: 210px;
+}
+#store h2 {
+    text-align: center;
+    font-size: 2em;
+	text-decoration: underline;
+}
+#store h3 {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-weight: lighter;
+}
+#store p {
+    color: #FF0004;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+#store h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: #000000;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px;
+    font-size: 2em;
+}
+#store h4 {
+    border-style: solid;
+    border-width: thin;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#store h4:hover { background-color: #FF0004;
+    color: #FFFFFF;
+    border-style: solid;
+    border-color: #000000;
+    cursor: pointer;
+}
+#privacy {
+}
+#privacy h2 {
+    text-align: center;
+    font-size: 2em;
+}
+#privacy p {
+    text-align: left;
+    font-size: 20px;
+    padding: 0px 20px;
+    margin-top: 34px;
+}
+#concerts {
+    background-image: url(Images/Tour.jpeg);
+}
+#concerts h2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2em;
+}
+
+#slider{
+	overflow:hidden;
+}
+#slider figure{
+    position: relative;
+    width: 300%;
+    left: 0%;
+    animation: 20s slider infinite;
+    margin-top: 15px;
+    margin-left: 265px;
+}
+#slider figure img{
+	width: 20%;
+	float: left;
+}
+@keyframes slider {
+	0%{
+		left:0;
+	}
+	20%{
+		left: 0;
+	}
+	25%{
+		left:-100%;
+	}
+	45%{
+		left:-100%;
+	}
+	50%{
+		left:-200%;
+	}
+	70%{
+		left:-200%;
+	}
+	75%{
+		left:-300;
+	}
+	95%{
+		left:-300%;
+	}
+	100%{
+		left:-400%;
+	}
+}
+#photo {
+    background-color: #000000;
+}
+
+#photo h2 {
+    color: #FFFFFF;
+    font-size: 2em;
+    text-align: center;
+}
+.mailing {
+    background-color: #000000;
+}
+.mailing h2 {
+    color: #FFFFFF;
+    font-size: 2em;
+    text-align: center;
+}
+.mailing h3 {
+    color: #FFFFFF;
+    border-width: thin;
+    border-style: solid;
+    font-size: 31px;
+    padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 29px;
+}
+.mailing p {
+    color: #FFFFFF;
+    text-align: center;
+    width: 371px;
+    padding-left: 486px;
+    font-size: 20px;
+    margin-bottom: 65px;
+}
+.mailing h3:hover {
+    color: #000000;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border-width: thin;
+    border-style: solid;
+}
+
+.mailing #email {
+    border: thin solid #FFFFFF;
+    background-color: #AEAEAE;
+    padding-right: 100px;
+    padding-left: 4px;
+    color: #000000;
+    font-size: 31px;
+    margin-bottom: 138px;
+    padding-top: 0px;
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+    margin-left: 503px;
+    text-align: left;
+}
+.news {
+    background-image: url(Images/news.png);
+    background-position: 0% 31%;
+}
+.news h2 {
+    color: #FFFFFF;
+    font-size: 2em;
+    text-align: center;
+}
+#blog {
+    background-image: url(Images/blog.jpg);
+}
+#blog h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #FFFFFF;
+}
+#blog h3 {
+    font-size: 36px;
+    margin-top: 139px;
+    margin-left: 24px;
+    color: #FFFFFF;
+}
+#blog p {
+    margin-right: 334px;
+    font-size: 20px;
+    margin-left: 22px;
+    background-color: #FFFFFF;
+    margin-top: 98px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+#join, #email {
+    display: inline-block;
+    vertical-align: top;
+}
